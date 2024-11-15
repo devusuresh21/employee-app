@@ -1,0 +1,148 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #4CAF50; /* Green color for the navbar */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Page content (center the form and table) */
+  .page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    min-height: 80vh; /* Minimum height to ensure it fills most of the viewport */
+  }
+  
+  /* Center the content horizontally and vertically using flexbox */
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: #f4f4f9; /* Light gray background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form select,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  form input,
+  form select {
+    background-color: #fff;
+  }
+  
+  form button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #45a049; /* Slightly darker green */
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4; /* Light background for table headers */
+    color: #333;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #fff;
+    color: #555;
+  }
+  
+  td button {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  td .edit {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  td .delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  td button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .navbar h1 {
+      font-size: 24px;
+    }
+  
+    form {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    table {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  }
+  
